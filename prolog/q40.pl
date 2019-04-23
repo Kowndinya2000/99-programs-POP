@@ -1,11 +1,7 @@
-% 6.10 (**) Bipartite graphs
+:- ensure_loaded(p6_01). 
+:- ensure_loaded(p6_09). 
 
-%  Write a predicate that finds out whether a given graph is bipartite.
 
-:- ensure_loaded(p6_01).  % conversions
-:- ensure_loaded(p6_09).  % connected_components/2
-
-% is_bipartite(G) :- the graph G is bipartite
 
 is_bipartite(G) :- 
    connected_components(G,Gs),
@@ -15,8 +11,7 @@ is_bi(graph(Ns,Es)) :- Ns = [N|_],
    alist_gterm(_,Alist,graph(Ns,Es)),
    paint(Alist,[],red,N).
 
-% paint(Alist,ColoredNodes,Color,ActualNode)
-% (+,+,+,+)
+
 
 paint(_,CNs,Color,N) :-  
    memberchk(c(N,Color),CNs), !.

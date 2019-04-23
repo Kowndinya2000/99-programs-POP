@@ -1,12 +1,9 @@
-// A Java program to demonstrate working of list remove 
-// when Object to be removed is passed. 
 import java.util.*; 
 
 public class GFG 
 { 
 	public static void main(String[] args) 
 	{ 
-		// Demonstrating remove on ArrayList 
 		List<String> myAlist = new ArrayList<String>(); 
 		myAlist.add("Geeks"); 
 		myAlist.add("Practice"); 
@@ -15,7 +12,6 @@ public class GFG
 		myAlist.remove("Quiz"); 
 		System.out.println("Modified ArrayList : " + myAlist); 
 
-		// Demonstrating remove on LinkedList 
 		List<String> myLlist = new ArrayList<String>(); 
 		myLlist.add("Geeks"); 
 		myLlist.add("Practice"); 

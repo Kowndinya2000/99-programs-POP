@@ -1,5 +1,3 @@
-:- ensure_loaded(p6_01).  % conversions
-
 depth_first_order(Graph,Start,Seq) :- 
    alist_gterm(_,Alist,Graph),
    clear_rdb(dfo),

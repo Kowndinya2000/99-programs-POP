@@ -1,12 +1,8 @@
-// Java program to demonstrate switch case 
-// with primitive(int) data type 
 public class Test { 
 	public static void main(String[] args) 
 	{ 
 		int day = 5; 
 		String dayString; 
-
-		// switch statement with int data type 
 		switch (day) { 
 		case 1: 
 			dayString = "Monday"; 

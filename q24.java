@@ -1,5 +1,3 @@
-// Java program to illustrate 
-// for-each loop 
 class For_Each	 
 { 
 	public static void main(String[] arg) 
@@ -15,7 +13,7 @@ class For_Each
 	{ 
 		int maxSoFar = numbers[0]; 
 		
-		// for each loop 
+		
 		for (int num : numbers) 
 		{ 
 			if (num > maxSoFar) 

@@ -1,5 +1,4 @@
-// Java program to demonstrate difference between ArrayList and 
-// LinkedList. 
+
 import java.util.ArrayList; 
 import java.util.LinkedList; 
 
@@ -14,7 +13,7 @@ public class ArrayListLinkedListExample
 		arrlistobj.remove(1); // Remove value at index 2 
 		System.out.println("ArrayList object output :" + arrlistobj); 
 
-		// Checking if an element is present. 
+		
 		if (arrlistobj.contains("2. Code.GeeksforGeeks.org")) 
 			System.out.println("Found"); 
 		else
@@ -28,7 +27,7 @@ public class ArrayListLinkedListExample
 		llobj.remove("1. Quiz.GeeksforGeeks.org"); 
 		System.out.println("LinkedList object output :" + llobj); 
 
-		// Checking if an element is present. 
+		
 		if (llobj.contains("2. Code.GeeksforGeeks.org")) 
 			System.out.println("Found"); 
 		else

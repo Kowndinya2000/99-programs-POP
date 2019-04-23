@@ -1,5 +1,3 @@
-// Java program to demonstrate use of a 
-// string to control a switch statement. 
 public class Test 
 { 
 	public static void main(String[] args) 

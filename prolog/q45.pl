@@ -1,9 +1,5 @@
-
-
-:- ensure_loaded(p6_01).  % conversions
-:- ensure_loaded(p6_02).  % adjacent/3
-
-
+:- ensure_loaded(p6_01).  
+:- ensure_loaded(p6_02). 
 
 degree(graph(Ns,Es),Node,Deg) :- 
    alist_gterm(graph,AList,graph(Ns,Es)),

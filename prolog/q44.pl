@@ -1,5 +1,5 @@
-:- ensure_loaded(p6_01).  % conversions
-:- ensure_loaded(p6_02).  % adjacent/3
+:- ensure_loaded(p6_01).  
+:- ensure_loaded(p6_02).  
 
 depth_first_order(Graph,Start,Seq) :- 
    (Graph = graph(Ns,_), !; Graph = digraph(Ns,_)),

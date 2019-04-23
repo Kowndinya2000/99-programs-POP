@@ -1,7 +1,3 @@
-// This class only accepts type parametes as any class 
-// which extends class A or class A itself. 
-// Passing any other type will cause compiler time error 
-
 class Bound<T extends A> 
 { 
 	
@@ -43,19 +39,15 @@ class C extends A
 public class BoundedClass 
 { 
 	public static void main(String a[]) 
-	{ 
-		
-		// Creating object of sub class C and 
-		// passing it to Bound as a type parameter. 
+	{  
 		Bound<C> bec = new Bound<C>(new C()); 
 		bec.doRunTest(); 
 		
-		// Creating object of sub class B and 
-		// passing it to Bound as a type parameter. 
+	 
 		Bound<B> beb = new Bound<B>(new B()); 
 		beb.doRunTest(); 
 		
-		// similarly passing super class A 
+		
 		Bound<A> bea = new Bound<A>(new A()); 
 		bea.doRunTest(); 
 		

@@ -1,8 +1,8 @@
-// A Java program to demonstrate use of Comparable 
+
 import java.io.*; 
 import java.util.*; 
 
-// A class 'Movie' that implements Comparable 
+
 class Movie implements Comparable<Movie> 
 { 
 	private double rating; 
@@ -15,7 +15,7 @@ class Movie implements Comparable<Movie>
 		return this.year - m.year; 
 	} 
 
-	// Constructor 
+	
 	public Movie(String nm, double rt, int yr) 
 	{ 
 		this.name = nm; 
@@ -23,7 +23,7 @@ class Movie implements Comparable<Movie>
 		this.year = yr; 
 	} 
 
-	// Getter methods for accessing private data 
+	
 	public double getRating() { return rating; } 
 	public String getName() { return name; } 
 	public int getYear()	 { return year; } 

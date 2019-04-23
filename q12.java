@@ -1,5 +1,3 @@
-// Java program to demonstrate working of 
-// Collections.synchronizedList 
 import java.util.*; 
 
 class GFG 
@@ -15,7 +13,6 @@ class GFG
 
 		synchronized(list) 
 		{ 
-			// must be in synchronized block 
 			Iterator it = list.iterator(); 
 
 			while (it.hasNext()) 

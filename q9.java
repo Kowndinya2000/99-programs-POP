@@ -1,11 +1,9 @@
-// Java program to print ordering 
-// of all elements using HashMap 
 import java.util.*; 
 import java.lang.*; 
 import java.io.*; 
 class Main 
 { 
-	// This function prints ordering of all elements 
+	
 	static void insertAndPrint(AbstractMap<Integer, String> map) 
 	{ 
 		int[] array= {1, -1, 0, 2,-2}; 
@@ -19,7 +17,7 @@ class Main
 		} 
 	} 
 
-	// Driver method to test above method 
+	
 	public static void main (String[] args) 
 	{ 
 		HashMap<Integer, String> map = new HashMap<Integer, String>(); 

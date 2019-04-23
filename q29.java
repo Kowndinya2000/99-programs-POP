@@ -1,7 +1,3 @@
-// filename: Test2.java 
-	
-// main() function of this class uses Test1 which is declared later in 
-// this file 
 class Test2 {	 
 	public static void main(String[] args) {	 
 		Test1 t1 = new Test1(); 

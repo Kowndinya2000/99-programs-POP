@@ -1,4 +1,6 @@
-
+import q13;
+import q14;
+import q19;
 public class MaxHeap { 
 	private int[] Heap; 
 	private int size; 
